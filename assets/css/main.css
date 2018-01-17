@@ -1412,7 +1412,7 @@
 
 	body, input, select, textarea {
 		color: #39393a;
-		font-family: "Open Sans", Helvetica, sans-serif;
+		font-family: 'Open Sans', Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
@@ -1469,6 +1469,16 @@
 
 	p {
 		margin: 0 0 2em 0;
+		font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.36;
+letter-spacing: normal;
+text-align: right;
+color: #39393a;
+color: var(--charcoal-grey);
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1476,7 +1486,7 @@
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 0 0;
 		text-transform: uppercase;
 	}
 
@@ -1560,7 +1570,7 @@
 	code {
 		background: rgba(144, 144, 144, 0.25);
 		border-radius: 3px;
-		font-family: "Courier New", monospace;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 0.9em;
 		letter-spacing: 0;
 		margin: 0 0.25em;
@@ -1569,7 +1579,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -1789,7 +1799,7 @@
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: rgba(144, 144, 144, 0.25);
+				background: 0 ;
 				border-radius: 3px;
 				content: '';
 				display: inline-block;
@@ -1804,7 +1814,7 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #2e3842;
+			background:0;
 			color: #fff;
 			content: '\f00c';
 		}
@@ -3216,7 +3226,7 @@ padding: 5px;
 					outline: 0;
 					text-decoration: none;
 					text-transform: uppercase;
-					font-family: PTSerif-Caption;
+					font-family: 'PT Serif Caption', serif;
 
   font-weight: normal;
   font-style: normal;
@@ -3776,7 +3786,7 @@ align: left;
 .EXPLORE-LIVING-FULLY {
   width: 594.4px;
   height: 159px;
-  font-family: PTSerif-Caption;
+  font-family:'PT Serif Caption', serif;
   font-size: 64px;
   font-weight: normal;
   font-style: normal;
@@ -3788,7 +3798,7 @@ align: left;
   color: var(--light-gold);
 }
 .Created-with-love-L {
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -3817,7 +3827,7 @@ align: left;
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Show more';
+  content: 'Learn more';
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
@@ -3828,15 +3838,15 @@ align: left;
   cursor: pointer;
   display: inline-block;
   padding: 0 .5em;
-  color: #666;
-  font-size: .9em;
+  color: #fed652;
+  font-size: 1em;
   line-height: 2;
-  border: 1px solid #ddd;
+  border: 0px solid #ddd;
   border-radius: .25em;
 }
 
 .HEART-OFFERINGS {
-  font-family: PTSerif-Caption;
+  font-family: 'PT Serif Caption', serif;
   font-size: 64px;
   font-weight: normal;
   font-style: normal;
@@ -3848,7 +3858,7 @@ align: left;
   color: var(--tomato);
 }
 .One-on-One-SessionS {
-  font-family: OpenSans;
+  font-family:'Open Sans', sans-serif;
   font-size: 23px;
   font-weight: bold;
   font-style: normal;
@@ -3860,7 +3870,7 @@ align: left;
   color: var(--pale-teal);
 }
 .COUNSELLING-FOR-TEEN {
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
@@ -3892,7 +3902,7 @@ align: left;
 	background-position: right center;
 }
 .Connect {
-  font-family: OpenSans;
+  font-family:'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
@@ -3924,4 +3934,284 @@ align: left;
 	  background-color: #a2cec1;
 	object-fit: contain;
 	background-position: left top;
+}
+
+
+/* css only show/hide
+
+ */
+
+html { background: white }
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+figure {
+    margin: 0 0 1.3rem 0;
+    -webkit-transition: .125s linear;
+    -moz-transition: .125s linear;
+    -ms-transition: .125s linear;
+    -o-transition: .125s linear;
+    transition: .125s linear;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+
+    width: 90%;
+    margin: 10em 12em;
+		padding: 20em 32em 0 0;
+    font-size: 75%;
+    line-height: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    *zoom: 1;
+}
+
+body:before, body:after {
+    content: "";
+    display: table;
+}
+
+body:after { clear: both }
+
+p { margin-bottom: 1.3rem }
+
+article {
+    margin-bottom: 1rem;
+    position: relative;
+    *zoom: 1;
+}
+
+article:before, article:after {
+    content: "";
+    display: ;
+}
+
+article:after { clear: both }
+
+article figure {
+    float: left;
+    width: 32.5%;
+}
+
+article section:first-of-type {
+    float: right;
+    width: 62.5%;
+}
+
+article section:last-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+section {
+    -webkit-transition: .125s linear;
+    -moz-transition: .125s linear;
+    -ms-transition: .125s linear;
+    -o-transition: .125s linear;
+    transition: .125s linear;
+}
+
+input[type=checkbox] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+[for="teen"] {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: .65rem;
+
+}
+
+[for="teen"]:hover {
+    background: rgba(0,0,0,0);
+    color: rgb(255,255,255);
+}
+
+[for="teen"] span:last-of-type {
+    display: none;
+    visibility: hidden;
+}
+[for="adult"] {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: .65rem;
+
+}
+[for="workshop"] {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: .65rem;
+
+}
+
+
+input[type=checkbox]:checked ~ section {
+    display: block;
+    visibility: visible;
+    width: 100%;
+}
+
+input[type=checkbox]:checked ~ figure { width: 100% }
+
+input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
+    display: block;
+    visibility: visible;
+}
+.offeringdrop
+{
+	margin: 0;
+
+
+}
+
+/*choosing custom classes for every text element */
+.HEART-OFFERINGS {
+  font-family: 'PT Serif Caption', serif;
+  font-size: 64px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: 4.5px;
+  text-align: right;
+  color: #f05d3c;
+  color: var(--tomato);
+}
+
+.One-on-One-Sessions {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 4px;
+  text-align: right;
+  color: #a2cec1;
+  color: var(--pale-teal);
+}
+.COUNSELLING-FOR-TEEN {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.6px;
+  text-align: right;
+  color: #f05d3c;
+  color: var(--tomato);
+}
+
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1a1e45;
+  color: var(--dark-blue-grey);
+}
+.Line {
+	border-top: solid 2px #a2cec1;
+	margin-top: 2em;
+	padding-top: 1em;
+	text-align: left;
+}
+.WORKSHOP {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.6px;
+  text-align: right;
+  color: #f05d3c;
+  color: var(--tomato);
+}
+.PARUL {
+  font-family: 'PT Serif Caption', serif;
+  font-size: 64px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.78;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1a1e45;
+  color: var(--dark-blue-grey);
+	margin-bottom: .5em;
+}
+.CONTACT {
+  font-family:'PT Serif Caption', serif;
+  font-size: 64px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fffef6;
+  color: var(--off-white);
+}
+.inspire {
+  font-family:'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #fffef6;
+  color: var(--off-white);
+}
+.WORKSHOP1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.6px;
+  text-align: left;
+  color: #f05d3c;
+  color: var(--tomato);
 }
