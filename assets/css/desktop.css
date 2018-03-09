@@ -1470,7 +1470,7 @@
 	p {
 		margin: 0 0 2em 0;
 		font-family: 'Open Sans', sans-serif;
-font-size: 14px;
+
 font-weight: normal;
 font-style: normal;
 font-stretch: normal;
@@ -3189,7 +3189,7 @@ background-image: url("../../images/illustration.png");
 		height: auto;
 		max-width: 100%;
 		overflow-y: auto;
-	padding: 2em 6em 2em 18em;
+	padding: 2em 4em 2em 10em;
 		position: fixed;
 		right: 0;
 		top: 0;
@@ -3204,7 +3204,7 @@ background-image: url("../../images/illustration.png");
 
 			#menu ul > li {
 				border-top: solid 0px rgba(0, 0, 0, 0.125);
-				margin: 0 11em 0 0;
+				margin: 0 5em 0 0;
 				padding: 0 0 0 0;
 float: left;
 
@@ -3225,20 +3225,16 @@ float: left;
 					border: 0;
 					color: inherit;
 display: block;
-
-					font-size: 1.25em;
-
-
-					outline: 0;
+				font-size: 1.05em;
+				outline: 0;
 					text-decoration: none;
 					text-transform: uppercase;
 					font-family: 'PT Serif Caption', serif;
-
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 2.19;
-  letter-spacing: .2em;
+  line-height: 2;
+  letter-spacing: .15em;
   text-align: left;
   color: #fffef6;
   color: var(--off-white);
@@ -3298,7 +3294,7 @@ display: block;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
 		background: #fed652;
-		height: 3em;
+		height: 3.3em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
@@ -4002,6 +3998,18 @@ figure img {
     *zoom: 1;
 }
 
+.main-offer {
+
+    width: 90%;
+    margin: 10em 12em;
+		padding: 12em 32em 0 0;
+    font-size: 75%;
+    line-height: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    *zoom: 1;
+}
+
 body:before, body:after {
     content: "";
     display: table;
@@ -4221,7 +4229,7 @@ h6 {
 }
 .inspire {
   font-family:'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 13pt;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -4266,7 +4274,7 @@ padding-bottom: 1em;
 {
 	  color: #fffef6;
 		 font-size:1.15em;
-		  margin-left:38em;
+		  margin-left:26em;
 			letter-spacing:.5px;
 
 }
@@ -4279,7 +4287,7 @@ padding-bottom: 1em;
 }
 .inspirerow2
 {
-	margin-top: 22em; padding:5em
+	margin-top: 24em; padding:5em 0em 2em 3em;
 }
 .contactbody {
 	margin:22em 20em 0 10em
@@ -4433,4 +4441,7 @@ line-height: .5em;
 	display: inline-block;
 	margin-right: 3em;
 	font-size: 1.15em
+}
+.yellow-bg{
+	background: : #fed652
 }
