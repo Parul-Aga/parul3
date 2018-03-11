@@ -3482,7 +3482,7 @@ display: block;
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 3em;
+				bottom: 2.5em;
 				content: '';
 				display: block;
 				height: 2.5em;
@@ -3682,7 +3682,7 @@ display: block;
 	#footer ul > li {
 		transition: padding 0.2s ease;
 	}
-	#footer ul > li:hover{
+	#footer ul:first-child > li:hover{
 		background-color: #1a1e45;
 		padding: .2em 1em
 	}
@@ -4038,6 +4038,7 @@ article {
     margin-bottom: 2rem;
     position: relative;
     *zoom: 1;
+		top:-3em;
 }
 
 article:before, article:after {
