@@ -3211,7 +3211,7 @@ float: left;
 transition: padding 0.2s ease;
 			}
 			#menu ul > li:hover{
-				background-color: #39393a;
+		background-color: #1a1e45;
 				padding: 0 1em
 			}
 
@@ -3674,9 +3674,17 @@ display: block;
 /* Footer */
 
 	#footer {
-		padding: 2.5em 0 1em 0 ;
-		background-color: #1d242a;
+		padding: 1.25em 0 0.05em 0 ;
+		background-color: #fed652;
 		text-align: center;
+	}
+
+	#footer ul > li {
+		transition: padding 0.2s ease;
+	}
+	#footer ul > li:hover{
+		background-color: #1a1e45;
+		padding: .2em 1em
 	}
 
 		#footer .icons {
