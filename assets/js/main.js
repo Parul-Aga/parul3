@@ -77,6 +77,19 @@
 					visibleClass: 'is-menu-visible'
 				});
 
+
+		//accordion
+
+		$(function () {
+    //  Accordion Panels
+    $(".accordions div").show();
+    setTimeout("$('.accordions .accordion').slideToggle('slow');", 1000);
+    $(".accordions h3").click(function () {
+        $(this).next(".accordion").slideToggle("slow").siblings(".accordion:visible").slideUp("slow");
+        $(this).toggleClass("current");
+        $(this).siblings("h3").removeClass("current");
+    });
+});
 		// Header.
 			if (skel.vars.IEVersion < 9)
 				$header.removeClass('alt');
