@@ -3207,7 +3207,7 @@ background-image: url("../../images/illustration.png");
 				border-top: solid 0px rgba(0, 0, 0, 0.125);
 				margin: 0 5em 0 0;
 				padding: 0 0 0 0;
-float: left;
+
 transition: padding 0.2s ease;
 			}
 			#menu ul > li:hover{
@@ -3800,7 +3800,7 @@ align: left;
 }
 .EXPLORE-LIVING-FULLY {
   width: 8em;
-margin-bottom: 1em;
+margin-bottom: .5em;
   font-family:'PT Serif Caption', serif;
   font-size: 3em;
   font-weight: normal;
@@ -4459,6 +4459,7 @@ line-height: .5em;
 	display: inline-block;
 	margin-right: 3em;
 	font-size: 1.15em
+
 }
 .yellow-bg{
 	background: : #fed652
@@ -4466,4 +4467,33 @@ line-height: .5em;
 
 .italic{
 	font-style: italic;
+}
+
+
+.accordions {
+    margin:1em 0
+}
+.accordions h3 {
+	color: #f05d3c; text-align:Right;
+	font-family: 'Open Sans', sans-serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1px;
+    cursor:pointer;
+    margin:0 0 1px 0;
+    padding:4px 10px
+}
+.accordion h3.current {
+    background:#4289aa;
+    cursor:default
+}
+
+.accordion{
+	border-top: 2px solid #a2cec1;
+}
+.accordions div.accordion {
+    padding:5px 10px
 }
