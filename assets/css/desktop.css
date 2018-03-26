@@ -1483,7 +1483,7 @@ color: var(--charcoal-grey);
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #39393a;
-		font-weight: 800;
+		font-weight: 600;
 		letter-spacing: 0.225em;
 		line-height: 1em;
 		margin: 0 0 0 0;
@@ -1526,7 +1526,7 @@ color: var(--charcoal-grey);
 		}
 
 	h4 {
-		font-size: 23px;
+		font-size: 1.5em;
 
 		letter-spacing: 0.125em;
 	}
@@ -2005,7 +2005,7 @@ color: var(--charcoal-grey);
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 .25em 0;
 		padding-left: 1em;
 	}
 
@@ -3190,7 +3190,7 @@ background-image: url("../../images/illustration.png");
 		height: auto;
 		max-width: 0%;
 		overflow-y: auto;
-	padding: 1em 4em 1em 10em;
+	padding: .5em 4em .25em 10em;
 		position: fixed;
 		right: 0;
 		top: -15em;
@@ -3674,7 +3674,7 @@ display: block;
 /* Footer */
 
 	#footer {
-		padding: 1.25em 0 0.05em 0 ;
+		padding: .5em 0 0.05em 0 ;
 		background-color: #fed652;
 		text-align: center;
 	}
@@ -3701,7 +3701,7 @@ display: block;
 
 		#footer .copyright {
 
-			font-size: 0.9em;
+			font-size: 0.7em;
 			letter-spacing: 0.225em;
 			list-style: none;
 			padding: 0;
@@ -3923,6 +3923,7 @@ margin-bottom: .5em;
 	background-repeat: no-repeat;
 	object-fit: contain;
 	background-position: right top;
+background-size: 38%;
 }
 .about {
   background-color: #fffef6;
@@ -3945,6 +3946,11 @@ margin-bottom: .5em;
   text-align: left;
   color: #1a1e45;
   color: var(--dark-blue-grey);
+}
+
+.p14{
+	font-size: 14px
+
 }
 .inspire {
 
@@ -4016,7 +4022,7 @@ figure img {
 .main-offer {
 
     width: 90%;
-    margin: 10em 12em;
+    margin: 3em 17em;
 		padding: 12em 32em 0 0;
     font-size: 75%;
     line-height: 1.3rem;
@@ -4150,7 +4156,7 @@ input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
 /*choosing custom classes for every text element */
 .HEART-OFFERINGS {
   font-family: 'PT Serif Caption', serif;
-  font-size: 64px;
+  font-size: 4.25em;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -4456,7 +4462,7 @@ line-height: .5em;
 .footerheads{
 	display: inline-block;
 	margin-right: 3em;
-	font-size: 1.15em
+
 
 }
 .yellow-bg{
@@ -4469,21 +4475,24 @@ line-height: .5em;
 
 
 .accordions {
-    margin:1em 0
+    margin:.5em 0
 }
 .accordions h3 {
 	color: #f05d3c; text-align:Right;
-	font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+	font-family: 'Open Sansbold', sans-serif;
+  font-size: 1.0625em;
 
   font-style: normal;
   font-stretch: normal;
-  line-height: 18px;
-  letter-spacing: 1.6px;
+  line-height: 1.0625em	;
+  letter-spacing: .07em;
     cursor:pointer;
     margin:0 0 1px 0;
-    padding:4px 10px;
+    padding:4px 0px;
 
+}
+.accordions h3 > span:hover{
+	border-bottom: 2px solid #a2cec1
 }
 .accordion h3.current {
     background:#4289aa;
