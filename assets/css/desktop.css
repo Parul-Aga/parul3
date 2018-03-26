@@ -1526,7 +1526,7 @@ color: var(--charcoal-grey);
 		}
 
 	h4 {
-		font-size: 2em;
+		font-size: 23px;
 
 		letter-spacing: 0.125em;
 	}
@@ -3374,7 +3374,7 @@ display: block;
 						}
 
 							#header nav > ul > li > a.menuToggle:after {
-								background-image: url("images/bars.svg");
+								background-image: url("images/bars1.svg");
 								background-position: left bottom;
 								background-repeat: no-repeat;
 								content: '';
@@ -3962,7 +3962,7 @@ margin-bottom: .5em;
 	background-color: var(--pale-teal);
 	background-image: url("../../images/contact-04.png");
 	height: 100%;
-	width: 100%;
+	width: 80%%;
 	background-repeat: no-repeat;
 	  background-color: #a2cec1;
 	object-fit: contain;
@@ -4308,12 +4308,10 @@ padding-bottom: 1em;
 	margin-top: 39.5em; padding:5em 0em 2em 3em;
 }
 .contactbody {
-	margin:22em 20em 0 10em
+	margin:13em 20em 0 10em
 
 }
-.contact {
-		background-size: contain;
-}
+
 .innerp
 {
 	margin:2em 40em 0 5em;
@@ -4451,7 +4449,7 @@ line-height: .5em;
 
 .logo{
 	max-width: 35%;
-	margin-top: 13em;
+	margin: 4em 0em;
 }
 
 
@@ -4476,24 +4474,31 @@ line-height: .5em;
 .accordions h3 {
 	color: #f05d3c; text-align:Right;
 	font-family: 'Open Sans', sans-serif;
-  font-size: 1.6em;
-  font-weight: bold;
+  font-size: 16px;
+
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.13;
-  letter-spacing: 1px;
+  line-height: 18px;
+  letter-spacing: 1.6px;
     cursor:pointer;
     margin:0 0 1px 0;
-    padding:4px 10px
+    padding:4px 10px;
+
 }
 .accordion h3.current {
     background:#4289aa;
     cursor:default
 }
 
+
 .accordion{
 	border-top: 2px solid #a2cec1;
 }
 .accordions div.accordion {
     padding:5px 10px
+}
+
+.ho1{
+	font-weight: 600;
+
 }
