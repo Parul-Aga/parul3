@@ -3799,7 +3799,7 @@ display: block;
 align: left;
 }
 .EXPLORE-LIVING-FULLY {
-  width: 8em;
+  width: 12em;
 margin-bottom: .5em;
   font-family:'PT Serif Caption', serif;
   font-size: 3em;
@@ -4277,7 +4277,7 @@ h6 {
 
 
 .explore{
-	margin:5em 0 0 38em;
+	margin:5em 0 0 33em;
 	padding-right: 10em;
 }
 .buttonh
@@ -4287,7 +4287,8 @@ line-height: 1.5em;
 padding-top: 1em;
 padding-bottom: 1em;
   font-family: 'PT Serif Caption', serif;
-	font-weight: 5	00
+	font-weight: 500;
+	float: left;
 }
 .inspirebody
 {
@@ -4484,7 +4485,7 @@ line-height: .5em;
 
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.0625em	;
+  line-height: 1.35em	;
   letter-spacing: .07em;
     cursor:pointer;
     margin:0 0 1px 0;
@@ -4494,6 +4495,7 @@ line-height: .5em;
 .accordions h3 > span:hover{
 	border-bottom: 2px solid #a2cec1
 }
+
 .accordion h3.current {
     background:#4289aa;
     cursor:default
