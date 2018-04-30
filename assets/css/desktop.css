@@ -2005,7 +2005,7 @@ color: var(--charcoal-grey);
 
 	ul {
 		list-style: disc;
-		margin: 0 0 .25em 0;
+		margin: 0 0 0.25em 0;
 		padding-left: 1em;
 	}
 
@@ -2328,6 +2328,28 @@ color: var(--charcoal-grey);
 			border-radius: 40px;
 
 		}
+		input[type="submit"].special,
+		input[type="reset"].special,
+		input[type="button"].special,
+		button.special,
+		.button.special-y {
+			background-color: #fed456;
+			box-shadow: 3px 3px !important;
+			color: #ffffff !important;
+			border-radius: 40px;
+
+		}
+		input[type="submit"].special,
+		input[type="reset"].special,
+		input[type="button"].special,
+		button.special,
+		.button.special-y:hover {
+			background-color: #ed4933;
+			box-shadow: 3px 3px !important;
+			color: #ffffff !important;
+			border-radius: 40px;
+
+		}
 
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
@@ -2628,7 +2650,7 @@ color: var(--charcoal-grey);
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 6em 0 6em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -3212,7 +3234,8 @@ transition: padding 0.2s ease;
 			}
 			#menu ul > li:hover{
 		background-color: #1a1e45;
-				padding: 0 1em
+				padding: 0 1em;
+				color:#fffef6
 			}
 
 				#menu ul > li:first-child {
@@ -3677,6 +3700,7 @@ display: block;
 		padding: .5em 0 0.05em 0 ;
 		background-color: #fed652;
 		text-align: center;
+
 	}
 
 	#footer ul > li {
@@ -3701,7 +3725,7 @@ display: block;
 
 		#footer .copyright {
 
-			font-size: 0.7em;
+			font-size: 0.65em;
 			letter-spacing: 0.225em;
 			list-style: none;
 			padding: 0;
@@ -3935,6 +3959,9 @@ background-size: 38%;
 	background-position: right center;
 
 }
+.about-05{
+	display: none;
+}
 .Connect {
   font-family:'Open Sans', sans-serif;
   font-size: 24px;
@@ -3949,8 +3976,8 @@ background-size: 38%;
 }
 
 .p14{
-	font-size: 14px
-
+	font-size: 1em;
+color: #39393a;
 }
 .inspire {
 
@@ -4023,7 +4050,7 @@ figure img {
 
     width: 90%;
     margin: 3em 17em;
-		padding: 12em 32em 0 0;
+		padding: 12em 30em 0 0;
     font-size: 75%;
     line-height: 1.3rem;
     font-family: 'Open Sans', sans-serif;
@@ -4192,6 +4219,11 @@ input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
   color: var(--tomato);
 }
 
+.tb-blue{
+	border-top: 2px solid #a2cec1;
+	padding-top: 1em
+}
+
 h6 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.65em;
@@ -4312,7 +4344,7 @@ padding-bottom: 1em;
 }
 .inspirerow2
 {
-	margin-top: 39.5em; padding:5em 0em 2em 3em;
+	margin-top: 26em; padding:5em 0em 2em 3em;
 }
 .contactbody {
 	margin:13em 20em 0 10em
@@ -4350,7 +4382,7 @@ height:3em;
 }
 .fontp
 {
-	font-size: 1.25em;
+	font-size: 1.05em;
 	letter-spacing:.3px;
 }
 
@@ -4429,10 +4461,7 @@ margin: 6.5em 1em 0em .5em;
 	padding:0;
 	margin: 20em 1em;
 }
-.fontp
-{
-	font-size: 1.25em;
-}
+
 .buttonh {
 
 padding-top: 1em;
@@ -4457,8 +4486,12 @@ line-height: .5em;
 .logo{
 	max-width: 35%;
 	margin: 4em 0em;
-}
 
+}
+.logom,
+.logotype{
+		display: none
+}
 
 .footerheads{
 	display: inline-block;
@@ -4505,6 +4538,7 @@ line-height: .5em;
 .accordion{
 	border-top: 2px solid #a2cec1;
 }
+
 .accordions div.accordion {
     padding:5px 10px
 }
@@ -4512,4 +4546,13 @@ line-height: .5em;
 .ho1{
 	font-weight: 600;
 
+}
+.bm{
+	margin-bottom: 6em
+}
+.sc{
+	text-transform: none;
+}
+.mobilemenu {
+	display: none
 }
