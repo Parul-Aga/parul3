@@ -1463,12 +1463,12 @@
 	.lp-text{
 	margin-top: 4em;
 	font-size: 1em;
-	color:grey;
+	color:#39393a;
 	}
 	.p14{
 		margin-top: 1em;
 		font-size: .8em;
-		color:grey;
+		color:#39393a;
 	}
 	.logom{
 			width: 170px;
@@ -1602,7 +1602,9 @@
 		max-width: 100%;
 background-size: contain;
 	}
-
+.inspiration-02{
+	display:none
+}
 	@media screen and (min-width: 480px) {
 		.logom{
 			position: absolute;
@@ -1629,7 +1631,7 @@ background-size: contain;
 			margin: -2.5em 0 0 20em;
 		}
 		.inspirebody{
-			margin: 15em 1em 0 2em;
+			margin: 1em 1em 0 2em;
 		}
 .inspiretext{
 	margin-left: 1em;
@@ -1666,4 +1668,28 @@ background-size: contain;
 .contactbody{
 margin: 9em 1em 0 2em;
 }
+#menu{
+	padding: .2em 1em .2em 1em;
+}
+#menu ul>li{
+	padding:.4em
+}
+.inspiration-02{
+display: inline;
+	width: 250px;
+	object-fit: contain;
+	margin: -3.5em 0 0 15.5em;
+}
+.inspiretext{
+	width:15em
+}
+.HEART-OFFERINGS{
+	margin-top:-6em
+}
+.inspire{
+	background-image: none;
+}
 	}
+.desktopmenu{
+	display:none
+}
