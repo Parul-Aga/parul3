@@ -1153,6 +1153,9 @@ margin-bottom: .5em;
 .p14{
 	font-size: 1em;
 color: #39393a;
+font-family: 'Open Sans', Helvetica, sans-serif;
+font-weight:200;
+font-style: italic;text-align:center
 }
 
 
@@ -1573,4 +1576,8 @@ background-size: 38%;
 }
 .inspiration-02{
 	display:none
+}
+.lp-text{
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight:200
 }

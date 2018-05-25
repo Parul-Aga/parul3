@@ -661,7 +661,7 @@
 			}
 
 				#menu ul > li {
-					border-top: solid 0px rgba(0, 0, 0, 0.125);
+					border-bottom: solid 0px rgba(0, 0, 0, 0.125);
 					padding: .45em;
 
 
@@ -678,7 +678,7 @@
 	#menu ul > li > ul {
 		list-style: disc;
 		padding-left: 2em;
-		font-size: 1em;
+		font-size: .95em;
 	outline: 0;
 	text-decoration: none;
 	font-family: 'PT Serif Caption', serif;
@@ -686,7 +686,7 @@
 	font-style: normal;
 	font-stretch: normal;
 
-	letter-spacing: .2em;
+	letter-spacing: .12em;
 	}
 
 	#menu ul > li > ul > ul{
@@ -710,7 +710,7 @@
 						border: 0;
 						color: inherit;
 	display: block;
-						font-size: 1em;
+						font-size: .95em;
 						outline: 0;
 						text-decoration: none;
 
@@ -719,7 +719,7 @@
 	  font-style: normal;
 	  font-stretch: normal;
 	  line-height: 2.19;
-	  letter-spacing: .2em;
+	  letter-spacing: .12em;
 	  text-align: left;
 	  color: #fffef6;
 	  color: var(--off-white);
@@ -964,7 +964,7 @@
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: contain;
-					bottom: 3em;
+					bottom: 7em;
 					content: '';
 					display: block;
 					height: 1.5em;
@@ -1461,14 +1461,19 @@
 		display: none;
 	}
 	.lp-text{
-	margin-top: 4em;
+	margin-top: 1.5em;
 	font-size: 1em;
 	color:#39393a;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight:400
 	}
 	.p14{
 		margin-top: 1em;
-		font-size: .8em;
+		font-size: .95em;
 		color:#39393a;
+		font-family: 'Open Sans', Helvetica, sans-serif;
+		font-weight:400;
+		font-style: italic;text-align:center
 	}
 	.logom{
 			width: 170px;
@@ -1605,15 +1610,32 @@ background-size: contain;
 .inspiration-02{
 	display:none
 }
+.illustration{
+	display:none;
+
+}
+
+
 	@media screen and (min-width: 480px) {
+		.EXPLORE-LIVING-FULLY{
+			margin-top: -4em
+		}
+		.wrapper{
+			margin-top: 1em
+		}
 		.logom{
 			position: absolute;
+		}
+		.illustration{
+			display:inline;
+			width:400px;
+			margin: -3em 0 0 6em
 		}
 		.logotype{
 			margin-top: 5.5em
 		}
 		.lp-text{
-			margin-top: 2em
+			margin-top: 1em
 		}
 		.p14{
 			margin-top: 0em
@@ -1621,10 +1643,10 @@ background-size: contain;
 		#banner .more:after {
 			height:2em;
 			width:2em;
-			bottom:7em
+			bottom:8em
 		}
 		.explore{
-			margin: 15em 0 0 2em;
+			margin: 0em 0 0 1em;
 			padding-right: 0em;
 		}
 		.offering-03{
@@ -1666,7 +1688,7 @@ background-size: contain;
 	padding:.35em
 }
 .contactbody{
-margin: 9em 1em 0 2em;
+margin: 3em 1em 0 2em;
 }
 #menu{
 	padding: .2em 1em .2em 1em;
@@ -1688,6 +1710,9 @@ display: inline;
 }
 .inspire{
 	background-image: none;
+}
+.wrapper.style1{
+	background-image: none
 }
 	}
 .desktopmenu{
