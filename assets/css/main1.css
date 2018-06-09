@@ -1625,6 +1625,7 @@ background-size: contain;
 		}
 		.logom{
 			position: absolute;
+			margin-top: -6em
 		}
 		.illustration{
 			display:inline;
@@ -1632,7 +1633,7 @@ background-size: contain;
 			margin: -3em 0 0 6em
 		}
 		.logotype{
-			margin-top: 5.5em
+			margin-top: 3.2em
 		}
 		.lp-text{
 			margin-top: 1em
