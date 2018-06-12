@@ -1186,6 +1186,14 @@
 	letter-spacing: 1px;
 	width: 17em
 	}
+	.offer-h{
+	font-family: 'PT Serif Caption', serif;
+	font-size: 1.5em;
+	font-weight: 600;
+	line-height: 1.38;
+	letter-spacing: 1px;
+	width: 17em
+	}
 
 	.offer-p{
 	font-size: .92em;
@@ -1520,10 +1528,26 @@
 	  line-height: 0.96;
 		font-family: 'Open Sans', sans-serif;
 	}
-	.offering-03{
+	.offering-03,.offering-031{
 		width: 150px;
 	  object-fit: contain;
 		margin: -2.5em 0 0 10.5em;
+	}
+
+	.offering-031{
+		margin: -2em 0 0 0em;
+	}
+	.ho{
+		position: absolute;
+
+top: 3em;
+
+left: 4.5em;
+	}
+	.offer-h{
+		width: 10em;
+
+text-align: right;
 	}
 	.about-05{
 		width: 250px;
@@ -1617,8 +1641,16 @@ background-size: contain;
 
 
 	@media screen and (min-width: 480px) {
+#banner{
+	padding-top:6em
+}
 		.EXPLORE-LIVING-FULLY{
-			margin-top: -4em
+			margin-top: -9em;
+			width:5em;
+			margin-bottom:.25em
+		}
+		label{
+			margin-bottom:0em
 		}
 		.wrapper{
 			margin-top: 1em
@@ -1648,11 +1680,20 @@ background-size: contain;
 		}
 		.explore{
 			margin: 0em 0 0 1em;
-			padding-right: 0em;
+			padding-right: 9em;
 		}
 		.offering-03{
 			margin: -2.5em 0 0 20em;
 		}
+		.offering-031{
+			margin: -2.5em 0 0 2em
+		}
+		.ho{
+		max-width: 50em;
+position: absolute;
+top: 1em;
+left: 14em;}
+
 		.inspirebody{
 			margin: 1em 1em 0 2em;
 		}
