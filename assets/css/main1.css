@@ -984,7 +984,7 @@
 				}
 
 					#banner br {
-						display: none;
+
 					}
 
 					#banner .more {
@@ -1229,7 +1229,7 @@
 
 	body:after { clear: both }
 
-	p { margin-bottom: 1.3rem }
+	p { margin-bottom: .5rem }
 
 	section {
 	    -webkit-transition: .125s linear;
@@ -1473,15 +1473,26 @@
 	font-size: 1em;
 	color:#39393a;
 	font-family: 'Open Sans', Helvetica, sans-serif;
-	font-weight:400
+	font-weight:300
 	}
 	.p14{
 		margin-top: 1em;
 		font-size: .95em;
 		color:#39393a;
 		font-family: 'Open Sans', Helvetica, sans-serif;
-		font-weight:400;
-		font-style: italic;text-align:center
+		font-weight:300;
+		font-style: italic;
+		text-align:center;
+		letter-spacing:.03em
+	}
+	.ho-h2{
+		color: #a2cec1;
+font-weight: 600;
+text-align: right;
+width: 10em;
+margin: 0 0 0 3.5em;
+line-height: 1.25em;
+letter-spacing: normal
 	}
 	.logom{
 			width: 170px;
@@ -1686,14 +1697,18 @@ background-size: contain;
 			margin: -2.5em 0 0 20em;
 		}
 		.offering-031{
-			margin: -2.5em 0 0 2em
+			margin: -2.5em 0 0 0em;
+					width:220px
 		}
 		.ho{
 		max-width: 50em;
 position: absolute;
 top: 1em;
 left: 14em;}
-
+.ho-h2{
+	width: 13em;
+margin: .25em 0 0 .5em;
+}
 		.inspirebody{
 			margin: 1em 1em 0 2em;
 		}
@@ -1759,4 +1774,39 @@ display: inline;
 	}
 .desktopmenu{
 	display:none
+}
+
+@media screen and (min-width: 737px) {
+#banner{
+	padding-top:0em;
+	height:80vh
+	}
+
+	.illustration{
+		margin-left: 16em
+	}
+	#banner .more:after {
+
+		bottom:12em
+	}
+	.EXPLORE-LIVING-FULLY{
+		margin-top:-6em
+	}
+	.wrapper{
+		padding: 4em 1em 2em 1em;
+	}
+	.Created-with-love-L{
+		font-size:1em;
+		width:28em}
+		.explore{
+	padding-right: 0em
+		}
+.learnmore{
+	width:43em;
+	letter-spacing: 0.03em;
+}
+.buttonh{
+	padding: .5em 2em;
+}
+
 }
