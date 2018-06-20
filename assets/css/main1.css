@@ -1751,7 +1751,8 @@ margin: 3em 1em 0 2em;
 	padding: .2em 1em .2em 1em;
 }
 #menu ul>li{
-	padding:.4em
+	padding:0em;
+	margin:.5em
 }
 .inspiration-02{
 display: inline;
