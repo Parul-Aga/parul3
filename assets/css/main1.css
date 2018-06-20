@@ -1652,6 +1652,10 @@ background-size: contain;
 
 
 	@media screen and (min-width: 480px) {
+		.offer-h{
+			width:11em
+
+		}
 #banner{
 	padding-top:6em
 }
@@ -1705,8 +1709,8 @@ right: 2em;
 		.ho{
 		max-width: 50em;
 position: fixed;
-top: 1em;
-right:2em}
+top: 1.5em;
+right:3em}
 .ho-h2{
 	width: 13em;
 margin: .25em 0 0 .5em;
