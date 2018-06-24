@@ -553,7 +553,7 @@
 				background-repeat: no-repeat;
 
 				object-fit: contain;
-height:100vh
+height:auto
 
 			}
 
@@ -964,12 +964,12 @@ height:100vh
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: contain;
-					bottom: 7em;
+					top: 3em;
 					content: '';
 					display: block;
 					height: 1.5em;
 					left: 50%;
-					margin: 0 0 0 -0.75em;
+					margin: 1em 0 0 -0.75em;
 					position: absolute;
 					width: 1.5em;
 				}
@@ -1290,6 +1290,14 @@ height:100vh
 		margin-bottom: .5em;
 
 	}
+	.contactbody1{
+			background-image: url("../../images/contact-04.png");
+			background-size: 60vw;
+			background-repeat: no-repeat;
+			background-position: top right;
+			margin-top:-1em
+
+		}
 	.CONTACT {
 	  font-family:'PT Serif Caption', serif;
 	  font-size: 28px;
@@ -1433,7 +1441,8 @@ height:100vh
 
 		.contactbody
 		{
-			margin:7em 1em 1em 1em;
+			margin:0em 1em 1em 1em;
+
 		}
 
 		}
@@ -1469,14 +1478,14 @@ height:100vh
 		display: none;
 	}
 	.lp-text{
-	margin-top: 1.5em;
+	margin-top: .5em;
 	font-size: 1em;
 	color:#39393a;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight:300
 	}
 	.p14{
-		margin-top: 1em;
+		margin-top: .5em;
 		font-size: .95em;
 		color:#39393a;
 		font-family: 'Open Sans', Helvetica, sans-serif;
@@ -1649,9 +1658,19 @@ background-size: contain;
 	display:none;
 
 }
-
+.contact{
+	background-image: none
+}
 .contact-illus{
-	display:none;
+	display: none;
+	width:15em;
+		object-fit:contain;
+		position: absolute;
+		right:0em;
+		top:1em;
+	}
+
+
 
 }
 	@media screen and (min-width: 480px) {
@@ -1754,6 +1773,7 @@ margin: .25em 0 0 .5em;
 }
 .contactbody{
 margin: 0em 1em 0 2em;
+
 }
 #menu{
 	padding: .2em 1em .2em 1em;
@@ -1800,21 +1820,35 @@ ul{
 	}
 	.contactbody{
 		margin: 1em 2em 0 1em;
+}
+.contactbody1{
+		background-image: url("../../images/contact-04.png");
+		background-size: 70vw;
+		background-repeat: no-repeat;
+		background-position: top right
 
+	}
+	.w10{
+		width:20em
+	}
+	.contact-illus{
+		display: none
 	}
 }
 @media screen and (min-width: 620px){
-.contact-illus{
-display: block;
-width:22em;
-	object-fit:contain;
-	position: absolute;
-	right:2em;
-	top:1em;
-}
+
 .contact{
 	background-image: none;
 }
+.contact-illus{
+	display: none;
+	width:22em;
+		object-fit:contain;
+		position: absolute;
+		right:1em;
+		top:1em;
+	}
+
 }
 @media screen and (min-width: 737px) {
 #banner{
@@ -1847,6 +1881,29 @@ width:22em;
 }
 .buttonh{
 	padding: .5em 2em;
+}
+
+}
+
+.italic{
+	font-style: italic;
+}
+
+@media screen and (min-width:440px) {
+.logom, .logotype{
+	display: none;
+}
+.logo{
+	display: block;
+	margin: auto;
+	width:20em
+}
+.wrapper.style1{
+	background-size: 60vw;
+	background-position: top right
+}
+.explore{
+	margin-top: 5em
 }
 
 }
