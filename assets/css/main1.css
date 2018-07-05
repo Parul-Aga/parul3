@@ -487,7 +487,7 @@
 
 			.button.special {
 				background-color: #ed4933;
-				box-shadow: 3px 3px !important;
+				/*box-shadow: 3px 3px !important;*/
 				color: #ffffff !important;
 				border-radius: 40px;
 
@@ -919,7 +919,7 @@ height:auto
 			justify-content: center;
 			cursor: default;
 			height: 100vh;
-			min-height: 35em;
+
 			overflow: hidden;
 			position: relative;
 			text-align: center;
@@ -964,7 +964,7 @@ height:auto
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: contain;
-					top: 3em;
+					top: 4.75em;
 					content: '';
 					display: block;
 					height: 1.5em;
@@ -1085,7 +1085,7 @@ height:auto
 		}
 	.EXPLORE-LIVING-FULLY {
 	  width: 10em;
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 	  font-family:'PT Serif Caption', serif;
 	  font-size: 2em;
 	  font-weight: normal;
@@ -1478,7 +1478,7 @@ height:auto
 		display: none;
 	}
 	.lp-text{
-	margin-top: .5em;
+	margin-top: 1.5em;
 	font-size: 1em;
 	color:#39393a;
 	font-family: 'Open Sans', Helvetica, sans-serif;
@@ -1848,12 +1848,34 @@ ul{
 		right:1em;
 		top:1em;
 	}
+}
+
+@media screen and (min-width:440px) {
+.logom, .logotype{
+	display: none;
+}
+.Created-with-love-L{
+	width:28em}
+
+.logo{
+	display: block;
+	margin: auto;
+	width:20em
+}
+.wrapper.style1{
+	background-size: 60vw;
+	background-position: top right
+}
+.explore{
+	margin-top: 1em
+}
 
 }
+
 @media screen and (min-width: 737px) {
 #banner{
 	padding-top:0em;
-	height:80vh
+	height:100vh
 	}
 
 	.illustration{
@@ -1863,9 +1885,7 @@ ul{
 
 		bottom:12em
 	}
-	.EXPLORE-LIVING-FULLY{
-		margin-top:-6em
-	}
+
 	.wrapper{
 		padding: 4em 1em 2em 1em;
 	}
@@ -1873,7 +1893,8 @@ ul{
 		font-size:1em;
 		width:28em}
 		.explore{
-	padding-right: 0em
+	padding-right: 0em;
+	margin-left:1em
 		}
 .learnmore{
 	width:43em;
@@ -1887,23 +1908,4 @@ ul{
 
 .italic{
 	font-style: italic;
-}
-
-@media screen and (min-width:440px) {
-.logom, .logotype{
-	display: none;
-}
-.logo{
-	display: block;
-	margin: auto;
-	width:20em
-}
-.wrapper.style1{
-	background-size: 60vw;
-	background-position: top right
-}
-.explore{
-	margin-top: 5em
-}
-
 }
