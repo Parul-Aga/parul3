@@ -488,7 +488,7 @@ color: var(--charcoal-grey);
 
 		.button.special {
 			background-color: #ed4933;
-			box-shadow: 3px 3px !important;
+			/*box-shadow: 3px 3px !important;*/
 			color: #ffffff !important;
 			border-radius: 40px;
 
