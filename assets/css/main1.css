@@ -1814,6 +1814,19 @@ ul{
 }
 
 @media screen and (min-width: 361px){
+.inspirebody{
+	margin: 12em 1em 0 1em
+}
+	.inspirerow{
+		margin-top: auto
+	}
+	.inspiretext{
+		margin-left: auto;
+	}
+	.inspirerow2{
+		margin:2em 3em 2em 2em;
+		padding:0 1em;
+	}
 	.explore{
 		margin: 10em 0 0 0;
 		padding-right: 2em
@@ -1836,7 +1849,17 @@ ul{
 	}
 }
 @media screen and (min-width: 620px){
-
+.inspire{
+	background-size: 25em;
+	background-position:top right
+}
+.inspirebody{
+	margin-top: 3em
+}
+.inspirerow2{
+	margin:0em;
+	padding:1.5em
+}
 .contact{
 	background-image: none;
 }
@@ -1851,6 +1874,14 @@ ul{
 }
 
 @media screen and (min-width:440px) {
+	#menu ul > li{
+		padding:0;
+		margin:.35em
+	}
+	#menu{
+		padding:.25em
+	}
+
 .logom, .logotype{
 	display: none;
 }
@@ -1869,10 +1900,17 @@ ul{
 .explore{
 	margin-top: 1em
 }
+.inspire{
+	background-position: top right;
+	background-size: 25em
+}
 
 }
 
 @media screen and (min-width: 737px) {
+	#menu ul > li > a{
+		line-height:1em
+	}
 #banner{
 	padding-top:0em;
 	height:100vh
