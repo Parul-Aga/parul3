@@ -1646,6 +1646,11 @@ ul{
 }
 
 @media screen and (min-width: 768px) {
+#header nav > ul > li > a.menuToggle::after{
+		background-image: url("images/barsipad.svg");
+background-position: left center;
+height: 4.75em;
+}
 	#banner .more::after{
 		top:0;
 		height:2.5em;
@@ -1695,5 +1700,7 @@ letter-spacing: .05em;
 .ra{
 	padding:0;
 }
-
+.wrapper.style1{
+	height:140vw;
+}
 }
